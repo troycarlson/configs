@@ -40,7 +40,7 @@ setups.
 ### 2. Put your linter configs in standalone files
 
 Sure, you can embed your eslint settings in `package.json` or your flake8 settings in `setup.cfg`,
-but please don't. It's just good separation fo concerns. It's easy for other people to find the
+but please don't. It's just good separation of concerns. It's easy for other people to find the
 config options in standalone files, if you stop using a linter it's easy to delete the config, it's
 easy to look up the format of a config, everything is easier.
 
